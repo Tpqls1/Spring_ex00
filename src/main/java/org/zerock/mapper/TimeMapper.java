@@ -12,6 +12,7 @@ public interface TimeMapper {
 	public String getTime();	//	메소드를 추가 : 현재시간을 가져온다.
 
 	//	2.Mapper XML 파일을 작성해서 인터페이스와 XML mapper와 연동하는 방법
-	//	
+	//	SQL문을 정의하고 검색결과를 매핑 시킨다.
+	public String getTime2();
 	
 }

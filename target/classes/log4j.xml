@@ -32,7 +32,10 @@
 		<level value="info" />
 	</logger>
 
-	<!-- Root Logger -->
+	<!-- Root Logger
+	작성한 프로그램의 로그를 설정하는 부분
+	로그레벨의 종류 : warn, infom, verbm, cri(?)
+	 -->
 	<root>
 		<priority value="warn" />
 		<appender-ref ref="console" />

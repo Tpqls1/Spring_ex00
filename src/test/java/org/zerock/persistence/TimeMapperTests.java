@@ -25,4 +25,10 @@ public class TimeMapperTests {
 		log.info(timeMapper.getClass().getName());
 		log.info(timeMapper.getTime());		//	현재시간을 출력
 	}	
+	@Test
+	public void testGetTime2() {
+		//	TimeMapper인터페이스 구현객체의 이름을 출력
+		log.info("getTime2()");
+		log.info(timeMapper.getTime2());		//	현재시간을 출력
+	}	
 }
